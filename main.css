@@ -1,0 +1,65 @@
+/* 
+ *  General layout
+ */
+
+.row {
+    margin-bottom: 30px;
+}
+
+/*
+ *  Override
+ */
+
+.navbar-brand {
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/*
+ *  Main
+ */
+
+img.pull-left {
+    margin-right: 15px;
+}
+
+#accordion {
+    margin: 0 0 30px;
+    width: 300px;
+}
+
+.col-md-8 + .col-md-4 {
+    margin-top: 100px;
+}
+
+.ads {
+    margin-bottom: 30px;
+}
+
+.ads.fixed {
+    position: fixed;
+    top: 0
+}
+
+.page-content p {
+    font-size: 16px;
+    line-height: 1.8em;
+    margin-bottom: 15px;
+}
+
+.page-image {
+    margin-bottom: 20px;
+}
+
+#accordion::after,
+.row:nth-of-type(2)::after {
+    border-bottom: 3px solid #c33;
+    content: '';
+    display: block;
+    width: 100%;
+}
+
+img[src="http://placehold.it/300x600"] {
+    border: 3px solid #39c;
+}
