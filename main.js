@@ -61,7 +61,7 @@ function init() {
     };
 }
 
-document.onreadystatechange = () => {
+document.onreadystatechange = function () {
     if (document.readyState === 'complete') {
         init();
     }
